@@ -5,7 +5,7 @@ const repoLink =
 const challengeLink =
   import.meta.env.VITE_CHALLENGE_LINK ||
   "https://www.frontendmentor.io?ref=challenge";
-export const Footer = () => {
+export default function Footer() {
   return (
     <footer className={styled.footer}>
       <div className={styled.container} role="presentation">
@@ -23,4 +23,4 @@ export const Footer = () => {
       </div>
     </footer>
   );
-};
+}
